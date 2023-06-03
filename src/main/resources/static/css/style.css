@@ -1,0 +1,308 @@
+.navbar{
+  background-color: #000 !important;
+}
+
+.navbar .navbar-brand{
+  color:#fff;
+}
+.navbar .navbar-brand:hover{
+  color:#fff;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item{
+  color:#fff !important;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+  background-color:#f2f2f2;
+  color:#000 !important;
+}
+
+
+.navbar .nav-item .dropdown-menu{
+  background-color:#000 !important;
+}
+
+.navbar-toggler{
+  background-color:#fff !important;
+}
+
+.carousel{
+  margin-top:20px;
+}
+
+#img{
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+#img1{
+  margin-left: 300px;
+}
+
+/*Main*/
+body{
+
+  background-image: url("img/234.jpg");
+
+
+}
+
+.-fluid{
+  background: linear-gradient(#168AAD,#34A0A4);
+
+}
+.navbar{
+  background: linear-gradient(#34A0A4,#168AAD);
+  height: 80px;
+}
+
+
+
+#main-nav{
+  padding:0px;
+}
+
+.nav-link{
+  color: #F7EFED;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 2px;
+
+}
+#navlink{
+  padding-left: 350px;
+}
+#h2{
+  margin-left: 550px;
+
+}
+
+#head{
+  color: White;
+  font-weight: 600;
+  background: linear-gradient(#34A0A4,#168AAD);
+}
+
+
+.nav-item.active a.nav-link{
+    color: black;
+    background: #F7EFED;
+    border-radius: 5px;
+}
+
+.nav-item a.nav-link:hover{
+  cursor: pointer;
+  color: black;
+  background: #F7EFED;
+  border-radius: 5px;
+}
+
+.nav-item a.nav-link.disabled:hover{
+  background: White !important;
+  color: Black !important;
+
+}
+
+li.nav-item button{
+  background: linear-gradient(#FD9A68,#F75C60);
+  border:2px solid #F7EFED;
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+
+/* dropdown */
+div.dropdown-menu{
+  background:linear-gradient(#FD9A68,#F75C60);
+    border:3px solid #F7EFED;
+    border-radius: 5px;
+}
+a.dropdown-item{
+color: black;
+font-weight: bold;
+}
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+li.nav-item button a{
+  color: #F7EFED;
+}
+
+li.nav-item button a:hover{
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-toggler{
+    color: #F7EFED !important;
+    border-color: #F7EFED !important;
+    background: linear-gradient(#FD9A68,#F75C60);
+    height: 40px;
+    width: 50px;
+  }
+
+  .navbar img {
+    margin: -10px;
+    padding:-10px;
+    height: 70px;
+    width: 80px;
+
+  }
+
+  div#navbarSupportedContent.navbar-collapse.collapse.show{
+    background: linear-gradient(#F75C60,#FD9A68);
+    width: 100%;
+    text-align: center;
+  }
+
+  #navbarSupportedContent.navbar-collapse.collapse.show ul.navbar-nav.ml-auto li.nav-item.dropdown.show div.dropdown-menu.show{
+    background: #F1485B !important;
+    color: #F7EFED !important;
+  }
+
+  #navbarSupportedContent.navbar-collapse.collapse.show ul.navbar-nav.ml-auto li.nav-item.dropdown.show div.dropdown-menu.show a{
+    color: #F7EFED;
+    text-align: center;
+  }
+
+  li.nav-item button{
+    background: linear-gradient(#FD9A68,#F75C60);
+    color:#F7EFED;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+}
+/* Shades Brands items  */
+  .Brands-items{
+    display:flex;
+    align-items: center;
+    margin: 10px auto;
+    background: linear-gradient(#FD9A68,#F75C60);
+    height: 80px;
+
+  }
+
+  .Brands-items a{
+   text-align: center;
+     color:#F7EFED;
+   font-size: 20px;
+   font-weight:500;
+   text-decoration:none;
+   align-items: center;
+ }
+
+  .Brands-items a:hover{
+      background: #F7EFED ;
+      color:  black;
+      cursor: pointer;
+      border-radius: 5px;
+}
+
+.Brands-content h4{
+  color:#F7EFED;
+  font-size: 20px;
+  font-weight:500;
+
+}
+#price{
+  color:#F7EFED;
+  font-size: 20px;
+  font-weight:500;
+
+}
+
+#ft{
+  padding-left: 400px;
+}
+
+
+
+  #Brands-varieties{
+    background: linear-gradient(#168AAD,#34A0A4);
+    height: 40px;
+    color: #F7EFED;
+    font-size: 21px;
+    font-weight: none;
+    text-decoration: none;
+    margin: 10px auto;
+
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .Brands-items{
+      display: block;
+      align-items: center;
+      margin: 20px auto;
+      background:linear-gradient(#FD9A68,#F75C60);
+      padding: 20px auto;
+      height: 100%;
+    }
+
+    .Brands-items a:hover{
+      background: #F7EFED ;
+      color:  black;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    #Brand-varieties{
+      background: black;
+      height: 40px;
+      color: #F7EFED;
+      font-size: 21px;
+      font-weight: none;
+      text-decoration: none;
+      margin: 20px auto;
+    }
+  }
+
+  /* end Brand item */
+
+
+/* footer page */
+
+footer{
+    margin-top:-50px;
+    padding: 10px;
+    background: linear-gradient(#34A0A4,#168AAD);
+    color: #F7EFED;
+}
+#food{
+  display:inline-block;
+
+}
+#icon{
+  padding-bottom:6px ;
+}
+
+#icon-2{
+  padding-bottom:2px ;
+}
+@media only screen and (max-width: 768px) {
+  #food{
+    padding-left:90px;
+}
+
+  }
+
+  footer a{
+    color: #F7EFED;
+
+  }
+
+  footer a:hover{
+    text-decoration: underline;
+    color: #F7EFED;
+  }
+
+  footer h6{
+    margin: 10px auto;
+  }
+
+/* end of footer */
