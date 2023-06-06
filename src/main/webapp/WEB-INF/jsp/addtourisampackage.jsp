@@ -27,6 +27,11 @@
     </div>
 
     <div class="mb-3">
+        <td>Activities: </td>
+        <td class="inputfrm"><form:input path="activity" class="input-field form-control"/></td>
+    </div>
+
+    <div class="mb-3">
         <td>Price: </td>
         <td class="inputfrm"><form:input path="price" class="input-field form-control"/></td>
     </div>
@@ -41,7 +46,17 @@
         <td class="inputfrm"><form:input path="location" class="input-field form-control"/></td>
     </div>
 
-    <td><input class="btn btn-primary" type="submit" value="Add Package"/></td>
+    <div class="mb-3">
+        <td>Destination</td>
+        <td class="inputfrm"><form:input path="destination" class="input-field form-control"/></td>
+    </div>
+
+    <div class="mb-3">
+        <td>Package Availability</td>
+        <td class="inputfrm"><form:input path="availability" class="input-field form-control"/></td>
+    </div>
+
+    <td><input class="btn btn-color" type="submit" value="Add Package"/></td>
 
 </form:form>
 

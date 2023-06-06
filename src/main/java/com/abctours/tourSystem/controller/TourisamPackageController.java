@@ -16,11 +16,14 @@ public class TourisamPackageController {
     @Autowired
     private PackageService packageService;
 
+//    show the added packeges to the users
     @GetMapping("/view-package")
     public String viewreadPackage(Model model){
         model.addAttribute("packages", packageService.findAll());
         return "viewpackage";
     }
+
+//    add new packges to the system
     @GetMapping("/add-tourisam-package")
     public String TourisamPackageAdd(Model model){
         model.addAttribute("command", new Package());
@@ -32,6 +35,7 @@ public class TourisamPackageController {
         return "redirect:/view-package";
     }
 
+//    get the uset input and update the packages
     @GetMapping("/update-package/{id}")
     public String showupdatePackage(@PathVariable int id, Model model){
         model.addAttribute("id", id);
@@ -44,6 +48,7 @@ public class TourisamPackageController {
         return "redirect:/view-package";
     }
 
+//    delete the tourisam packages
     @GetMapping("/delete-tourisam-package/{id}")
     public String deletePackage(@PathVariable int id){
         packageService.deleteById(id);

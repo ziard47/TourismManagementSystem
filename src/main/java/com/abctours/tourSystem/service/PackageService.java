@@ -58,6 +58,8 @@ public class PackageService {
      * @param packag
      * @return
      */
+
+//    update code of the packge
     public Package updatepackage(int id, Package packag) {
         LOG.info("updating package for a given id.");
         Package updatepackage = packagerepositoryobject.findById(id).orElse(null);
@@ -67,6 +69,9 @@ public class PackageService {
             updatepackage.setPrice(packag.getPrice());
             updatepackage.setDescription(packag.getDescription());
             updatepackage.setLocation(packag.getLocation());
+            updatepackage.setActivity(packag.getActivity());
+            updatepackage.setDestination(packag.getDestination());
+            updatepackage.setAvailability(packag.getAvailability());
             packagerepositoryobject.save(updatepackage);
         }else{
             LOG.warn("No package details for the given id");

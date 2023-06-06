@@ -22,6 +22,11 @@
     </div>
 
     <div class="mb-3">
+        <td>Activities</td>
+        <td><form:input path="activity" class="input-field form-control" /></td>
+    </div>
+
+    <div class="mb-3">
         <td>Price:</td>
         <td><form:input path="price" class="input-field form-control" /></td>
     </div>
@@ -36,9 +41,18 @@
         <td><form:input path="location" class="input-field form-control" /></td>
     </div>
 
+    <div class="mb-3">
+        <td>Destination</td>
+        <td><form:input path="destination" class="input-field form-control" /></td>
+    </div>
+
+    <div class="mb-3">
+        <td>Availability Status:</td>
+        <td><form:input path="availability" class="input-field form-control" /></td>
+    </div>
         <tr>
             <td></td>
-            <td><input class="btn btn-primary" type="submit" value="Update" /></td>
+            <td><input class="btn btn-color" type="submit" value="Update" /></td>
         </tr>
 
 
