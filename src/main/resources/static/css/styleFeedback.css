@@ -1,0 +1,99 @@
+
+/*index page code start from here*/
+.carousel {
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-nav{
+  margin-left:800px;
+  margin-top:30px;
+}
+
+li a{
+  font-size:16px;
+  margin-left: 42px;
+  color:#fff;
+  font-weight:bold;
+}
+
+li a:hover
+{
+  color: #9A5CFF;
+}
+
+.signupbtnclr{
+  background-color: #9A5CFF;
+}
+
+.imgstly{
+  left: 0px;
+  top: 0px;
+  border-radius: 0px 0px 130px 130px;
+}
+
+.bannheading{
+  position: absolute;
+  width: 1057px;
+  height: 218px;
+  left: 381px;
+  top: 322px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 83px;
+  line-height: 97px;
+  text-align: center;
+  color: #FFFFFF;
+  z-index:3;
+}
+
+.inputsrch{
+  position: absolute;
+  left: 300px;
+  top: 670px;
+  background: #FFFFFF;
+  z-index:3;
+}
+
+.searchbtn{
+  position: absolute;
+  margin-top:675px;
+  margin-left:1200px;
+  width: 194px;
+  height: 43px;
+  z-index:1;
+}
+
+.bannecr{
+  height:200px;
+  margin-top:1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enquries{
+  margin-top: 10px;
+}
+/*index page code stop from here*/
+
+/*label codes starts from here*/
+.input-field {
+  width: 400px;
+  border-radius: 25px 30px 20px 35px;
+}
+
+
+/*label codes stop from here*/
