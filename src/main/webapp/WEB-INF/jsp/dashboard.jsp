@@ -34,7 +34,7 @@
         <div class="col-md-4">
             <div class="card-box text-center">
                 <div class="card-pic">
-                    <img src="/img/booking.jpg" class="img-fluid" alt="card Pic">
+                    <img src="/img/Booking.jpg" class="img-fluid" alt="card Pic">
                 </div>
 
                 <hr>
@@ -46,7 +46,7 @@
         <div class="col-md-4">
             <div class="card-box text-center">
                 <div class="card-pic">
-                    <img src="/img/feedback.jpg" class="img-fluid" alt="card Pic">
+                    <img src="/img/Feedback.jpg" class="img-fluid" alt="card Pic">
                 </div>
 
                 <hr>
@@ -58,7 +58,7 @@
         <div class="col-md-4 offset-md-4">
             <div class="card-box text-center">
                 <div class="card-pic">
-                    <img src="/img/hotels.jpg" class="img-fluid" alt="card Pic">
+                    <img src="/img/Hotels.jpg" class="img-fluid" alt="card Pic">
                 </div>
 
                 <hr>
