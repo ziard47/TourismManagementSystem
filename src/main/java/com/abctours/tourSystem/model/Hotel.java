@@ -19,10 +19,10 @@ public class Hotel {
     private String name;
 
     @Column
-    private String addressline1;
+    private String addressone;
 
     @Column
-    private String addressline2;
+    private String addresstwo;
 
     @Column
     private String country;

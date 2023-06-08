@@ -66,8 +66,8 @@ public class HotelService {
         Hotel updatehotel = hotelRepositoryobject.findById(id).orElse(null);
         if (updatehotel != null){
             updatehotel.setName(hotel.getName());
-            updatehotel.setAddressline1(hotel.getAddressline1());
-            updatehotel.setAddressline2(hotel.getAddressline2());
+            updatehotel.setAddressone(hotel.getAddressone());
+            updatehotel.setAddressone(hotel.getAddresstwo());
             updatehotel.setCountry(hotel.getCountry());
             updatehotel.setConnumber(hotel.getConnumber());
             updatehotel.setEmailaddress(hotel.getEmailaddress());

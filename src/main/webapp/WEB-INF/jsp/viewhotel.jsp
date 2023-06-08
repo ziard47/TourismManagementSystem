@@ -13,9 +13,9 @@
     <table cellpadding="2" class="table" style="width:80%; margin-top: 30px; margin-left: auto; margin-right: auto;">
         <tr>
             <th>Id</th>
-            <th>Name</th>
-            <th>AddressL1</th>
-            <th>AddressL2</th>
+            <th>Hotel Name</th>
+            <th>Address Line Number One</th>
+            <th>Address Line Number Two</th>
             <th>Country</th>
             <th>Contact Number</th>
             <th>Email Address</th>
@@ -26,8 +26,8 @@
             <tr>
                 <td>${hotel.id}</td>
                 <td>${hotel.name}</td>
-                <td>${hotel.addressline1}</td>
-                <td>${hotel.addressline2}</td>
+                <td>${hotel.addressone}</td>
+                <td>${hotel.addresstwo}</td>
                 <td>${hotel.country}</td>
                 <td>${hotel.connumber}</td>
                 <td>${hotel.emailaddress}</td>

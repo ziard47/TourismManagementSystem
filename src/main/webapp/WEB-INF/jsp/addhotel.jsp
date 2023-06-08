@@ -18,13 +18,13 @@
     </div>
 
     <div class="mb-3">
-        <td>Address1: </td>
-        <td> <form:input path="addressline1" class="input-field form-control"/></td>
+        <td>Address Line Number One </td>
+        <td> <form:input path="addressone" class="input-field form-control"/></td>
     </div>
 
     <div class="mb-3">
-        <td>Address2: </td>
-        <td><form:input path="addressline2" class="input-field form-control"/></td>
+        <td>Address Line Number Two</td>
+        <td><form:input path="addresstwo" class="input-field form-control"/></td>
     </div>
 
     <div class="mb-3">
