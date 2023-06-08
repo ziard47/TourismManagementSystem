@@ -28,7 +28,7 @@
                 <hr>
                 <h4>Tour Packages</h4>
                 <hr>
-                <button onclick="location.href='/view-package'" style="border-radius: 10px">View</button>
+                <button onclick="location.href='/view-package-cus'" style="border-radius: 10px">View</button>
             </div>
         </div>
         <div class="col-md-4">

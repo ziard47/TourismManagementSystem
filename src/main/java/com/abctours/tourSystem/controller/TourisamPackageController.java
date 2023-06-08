@@ -23,6 +23,12 @@ public class TourisamPackageController {
         return "viewpackage";
     }
 
+    @GetMapping("/view-package-cus")
+    public String readPackagecustomer(Model model){
+        model.addAttribute("packages", packageService.findAll());
+        return "custormerviewpackage";
+    }
+
 //    add new packges to the system
     @GetMapping("/add-tourisam-package")
     public String TourisamPackageAdd(Model model){
