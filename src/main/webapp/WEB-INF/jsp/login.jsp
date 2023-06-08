@@ -21,6 +21,8 @@
             <a href="/add-customer">Not a member?</a>
             <%--<input class="btn btn-primary" type="submit" value="Login"/>--%>
             <button type="submit" value="Login">Log In</button>
+            <br>
+            <span>Just click the Login button for customer Booking</span>
         </form:form>
     </div>
     <div class="overlay-container">
