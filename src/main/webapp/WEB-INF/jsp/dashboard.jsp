@@ -55,6 +55,18 @@
                 <button onclick="location.href='/view-feedback'" style="border-radius: 10px">View</button>
             </div>
         </div>
+        <div class="col-md-4">
+            <div class="card-box text-center">
+                <div class="card-pic">
+                    <img src="/img/hotels.jpg" class="img-fluid" alt="card Pic">
+                </div>
+
+                <hr>
+                <h4>Hotel</h4>
+                <hr>
+                <button onclick="location.href='/view-hotel-cus'" style="border-radius: 10px">View</button>
+            </div>
+        </div>
     </div>
 </div>
 </body>

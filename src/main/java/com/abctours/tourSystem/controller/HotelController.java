@@ -32,6 +32,13 @@ public class HotelController {
         hotelService.saveHotel(hotel);
         return "redirect:/view-hotel";
     }
+
+    @GetMapping("/view-hotel-cus")
+    public String readPackagecustomer(Model model){
+        model.addAttribute("hotels", hotelService.findAll());
+        return "customerviewhotel";
+    }
+
 //update hotel information
     @GetMapping("/update-hotel/{id}")
     public String showupdateHotel(@PathVariable int id, Model model){
